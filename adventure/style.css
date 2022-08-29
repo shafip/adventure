@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.log{
+    position: fixed;
+    margin-left: 5%;
+    margin-top: 1%;
+    box-shadow: 5px;
+}
+
+.log img {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-left: -30%;
+    margin-top: -6%;
+}
+
+
+h1 {
+
+    color: rgb(80, 110, 100);
+    position: relative;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: darkgrey;
+    margin-top: -50px;
+    margin-left: 40px;
+
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./images/home-bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: -1%;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-left: 57%;
+
+}
+
+.nav-link {
+    flex: 1;
+    text-align: right;
+    margin-top: 1%;
+
+    position: relative;
+}
+
+.nav-link ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 8px;
+    position: relative;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+}
+
+.nav-link ul li a:hover {
+    color: blue;
+}
+
+.text-box {
+    width: 400px;
+    margin-left: 60%;
+    position: relative;
+    top: 270px;
+    
+
+}
+
+.bye {
+    margin-bottom: -2px;
+    margin-top: 4%;
+}
+
+h2.ok {
+    color: rgb(3, 63, 10);
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.text-box p {
+    margin-top: 3%;
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+    margin-bottom: 3%;
+    margin-left: 2px;
+    
+}
+
+.hero-btn {
+    border-radius: 10px;
+    top: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 9px 28px;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+
+.hero-btn:hover {
+    background-color: rgb(248, 244, 244);
+}
+
+.idea {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+h2.poda {
+    color: rgb(3, 56, 19);
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.cols-idea img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+p {
+    width: 250px;
+    font-size: 16px;
+    color: rgb(12, 11, 11);
+    margin-left: 37px;
+    margin-top: 17px;
+}
+
+h3 {
+    width: 230px;
+    margin-left: 7px;
+    color: green;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+    margin-left: 70px;
+    position: relative;
+
+}
+
+.hero:hover {
+    background-color: rgb(238, 233, 243);
+}
+
+.cols-idea img:hover {
+    width: 270px;
+    height: 270px;
+}
+
+.cols-idea a {
+    top: 10%;
+}
+
+.row {
+    flex-basis: 45%;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rowok {
+    width: 85%;
+    height: 500px;
+    position: relative;
+    background-color: rgb(227, 227, 238);
+    margin-top: -3%;
+    display: flex;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+
+.col-exp img {
+    width: 450px;
+    height: 400px;
+    margin-bottom: 40%;
+    margin-left: 9%;
+    margin-top: 6%;
+    box-shadow: 0px 15px 15px 0px rgb(215, 215, 221);
+}
+
+.para p {
+    width: 500px;
+    height: 250px;
+    margin-left: 25%;
+    margin-top: -24%;
+    position: relative;
+    font-size: 20px;
+
+    top: 10%;
+
+}
+
+.para h1 {
+    width: 500px;
+    height: 100px;
+    justify-content: last baseline;
+    position: relative;
+    margin-top: 25%;
+    margin-left: 30%;
+    color: green;
+}
+
+.para a {
+    position: relative;
+    left: 45px;
+    top: 3%;
+}
+
+h5 {
+    font-size: 30px;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.package {
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    position: relative;
+}
+
+.row-pac {
+
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-pack img {
+    width: 300px;
+    height: 250px;
+    padding: 5px 10px 5px 10px;
+}
+
+.col-pack {
+    width: 320px;
+    height: 450px;
+    border: 2px solid black;
+    margin-left: 20px;
+    position: relative;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.col-pack p {
+    position: relative;
+    width: 280px;
+    height: 30px;
+    top: -10px;
+}
+
+.her {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+    position: relative;
+    top: 8%;
+    margin-left: 70px;
+}
+
+.her:hover {
+
+    background-color: rgb(238, 233, 243);
+}
+
+h6 {
+    font-size: 18px;
+    color: rgb(34, 34, 233);
+    margin-left: 80px;
+    top: 15px;
+}
+
+.hello {
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    position: relative;
+    margin-top: -9%;
+}
+
+.row-pack {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-pack img {
+    width: 300px;
+    height: 250px;
+    padding: 5px 10px 5px 10px;
+}
+
+.col-pack {
+    width: 320px;
+    height: 450px;
+    border: 2px solid black;
+    margin-left: 20px;
+    position: relative;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.col-pac p {
+    position: relative;
+    width: 280px;
+    height: 30px;
+    background-color: rgb(244, 250, 250);
+    top: -10px;
+}
+
+.her {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+    position: relative;
+    top: 8%;
+    margin-left: 70px;
+}
+
+.her:hover {
+
+    background-color: rgb(238, 233, 243);
+}
+
+h6 {
+    font-size: 18px;
+    color: rgb(34, 34, 233);
+    margin-left: 80px;
+    top: 15px;
+}
+.col-pack:hover{
+    background-color: rgb(199, 197, 197);
+    cursor: pointer;
+}
+.rev{
+    margin-top:-8% ;
+    position: relative;
+    background-color: aliceblue;
+    height: 70vh;
+}
+.rev h1{
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.row-col p{
+    width: 350px;
+    height: 150px;
+    background-color: rgb(228, 222, 222);
+    border-radius: 10px 10px 0px 10px;
+    padding-left: 10px;
+    padding-top: 7.5%;
+    padding-bottom: -5px;
+    position: relative;
+    justify-content: space-between;
+}
+.row-col img{
+    width: 85px;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 3.5%;
+    top: 25px;
+}
+.row-col h4{
+    position: absolute;
+    margin-left: 15%;
+    margin-bottom: 20%;
+}
+.row-rev{
+    display: flex;
+    flex-basis: 45px;
+    position: relative;
+    margin-left: 5%;
+}
